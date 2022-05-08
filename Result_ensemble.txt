@@ -1,0 +1,12 @@
+
+Best parameter for Random Forest Model is:
+ {'randomforestclassifier__bootstrap': True, 'randomforestclassifier__max_depth': 10, 'randomforestclassifier__max_features': 'sqrt', 'randomforestclassifier__min_samples_leaf': 1, 'randomforestclassifier__min_samples_split': 5, 'randomforestclassifier__n_estimators': 200}
+ Metrics: Train_result ,Test_result 
+ Confusion_matrix: Train_result: [[62 10]
+ [ 7 78]],Test_result: [[30  1]
+ [ 3 34]]
+ Accuracy_score: Train_result: 0.89171974522293,Test_result: 0.9411764705882353
+ Precision_score: Train_result: 0.8863636363636364,Test_result: 0.9714285714285714
+ Recall_score: Train_result: 0.9176470588235294,Test_result: 0.918918918918919
+ f1_score: Train_result: 0.9017341040462428,Test_result: 0.9444444444444445
+ Balanced_accuracy: Train_result: 0.8893790849673202,Test_result: 0.9433304272013949
