@@ -1,0 +1,21 @@
+
+Best parameter for Random Forest Model is:
+ Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('pca', PCA(n_components=12)),
+                ('randomforestclassifier',
+                 RandomForestClassifier(bootstrap=False, max_depth=4,
+                                        max_features='sqrt',
+                                        min_samples_leaf=12,
+                                        min_samples_split=4, n_estimators=11,
+                                        random_state=1))])
+ Metrics: Train_result ,Test_result 
+ Confusion_matrix: Train_result: [[123   5]
+ [  5 182]],Test_result: [[ 87  16]
+ [ 11 111]]
+ Accuracy_score: Train_result: 0.9682539682539683,Test_result: 0.88
+ Precision_score: Train_result: 0.9609375,Test_result: 0.8877551020408163
+ Recall_score: Train_result: 0.9609375,Test_result: 0.8446601941747572
+ Specificity: Train_result: 0.9732620320855615,Test_result: 0.9098360655737705
+ Balanced_accuracy: Train_result: 0.9670997660427807,Test_result: 0.8772481298742638
+ Accuracy Score_Color_species: Train_result: [0.9777777777777777, 0.9777777777777777, 1.0, 1.0, 0.9333333333333333, 0.9111111111111111, 0.9777777777777777],Test_result: [0.7777777777777778, 0.9333333333333333, 0.9333333333333333, 0.8222222222222222, 0.9333333333333333]
+ Accuracy Score_Color (Black,Brown,Orange,Yellow): Train_result: [1.0, 0.9519230769230769, 0.9090909090909091, 0.9880952380952381],Test_result: [0.9821428571428571, 0.8484848484848485, 0.6875, 0.9154929577464789]
