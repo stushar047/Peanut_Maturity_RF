@@ -9,5 +9,5 @@ dependencies:
   - pillow
   - pip
   - pip:
-    - envi
+    - spectral
     - opencv-python
