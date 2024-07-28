@@ -1,0 +1,13 @@
+name: peanut  # Replace with your desired environment name
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - numpy
+  - pillow
+  - pip
+  - pip:
+    - envi
+    - opencv-python
