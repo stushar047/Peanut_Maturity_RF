@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This project presents a hyperspectral imaging and machine learning pipeline for **peanut maturity classification**. The workflow begins with raw hyperspectral peanut images and processes them into structured spectral features that can be used for classification. The final goal is to distinguish peanut maturity classes using **Random Forest (RF)** models trained on processed spectral data. 
+This project presents a hyperspectral imaging and machine learning pipeline for **peanut maturity classification**. The workflow begins with raw hyperspectral peanut images and processes them into structured spectral features that can be used for classification. The final goal is to distinguish peanut maturity classes using **Random Forest (RF)** models trained on processed spectral data.
+
+<img src="Peanut.jpg" alt="Alt text" width="300" height="200">
 
 The repository is organized around two main stages:
 
